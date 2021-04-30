@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
 import { useState } from "react";
+import Player from "./Player";
+
 function Team(props) {
   const [show, setShow] = useState(false);
 
@@ -22,12 +24,12 @@ function Team(props) {
             <button onClick={clickHandler}>Show less</button>
             {teamplayers.map((player, index) => (
               <div>
-                <p>{player.name}</p>
+                <Player key={index} player={player} />
               </div>
             ))}
           </>
         ) : (
-          <button onClick={clickHandler}>show more</button>
+          <button onClick={clickHandler}>Show more</button>
         )}
       </div>
     </div>
