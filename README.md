@@ -1,3 +1,3 @@
 # allamvizsgareact
 
-commitka
+commit 10:30
