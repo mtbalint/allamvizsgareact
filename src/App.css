@@ -1,3 +1,9 @@
-.App {
-  text-align: center;
+body {
+  display: flex;
+  justify-content: center;
+}
+.team {
+  border: 1px solid #333333;
+  display: flex;
+  justify-content: center;
 }
