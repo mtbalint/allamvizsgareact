@@ -25,6 +25,7 @@ const App = () => {
   return (
     <div>
       <h1>NBA teams - all star voting</h1>
+      <input type="text" value="Search" />
       {response === false ? (
         <p>Oops, something happened</p>
       ) : (

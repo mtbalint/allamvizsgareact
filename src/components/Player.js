@@ -3,8 +3,7 @@ function Player({ player }) {
   return (
     <div className="player">
       <p>
-        {player.name} - Voted:{" "}
-        <button onClick={() => handleClick()}>Vote</button>
+        {player.name} - <button onClick={() => handleClick()}>Vote</button>
       </p>
     </div>
   );
